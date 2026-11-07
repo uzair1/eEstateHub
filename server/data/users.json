@@ -1,0 +1,18 @@
+[
+  {
+    "id": "u_admin",
+    "name": "Admin",
+    "email": "admin@estatehub.com",
+    "passwordHash": "$2a$10$sbSH1yUwtik5c4A6IBOCIOlRXd1u/.3n0wvyJI/VKgurqdWizO5.2",
+    "role": "admin",
+    "createdAt": "2026-11-04T09:45:49.603Z"
+  },
+  {
+    "id": "u_demo",
+    "name": "Demo User",
+    "email": "demo@estatehub.com",
+    "passwordHash": "$2a$10$sbSH1yUwtik5c4A6IBOCIOlRXd1u/.3n0wvyJI/VKgurqdWizO5.2",
+    "role": "user",
+    "createdAt": "2026-11-04T09:45:49.603Z"
+  }
+]

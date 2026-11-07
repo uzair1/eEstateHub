@@ -1,0 +1,87 @@
+[
+  {
+    "id": "ag_1",
+    "name": "Sarah Mitchell",
+    "role": "Founder & Principal Broker",
+    "email": "sarah@estatehub.com",
+    "phone": "+1 (415) 555-0142",
+    "photo": "/images/agent-1.jpg",
+    "bio": "Over 18 years in luxury residential real estate across the Bay Area. Sarah has closed more than $420M in volume and is known for discretion and precision.",
+    "specialties": [
+      "Luxury Homes",
+      "Waterfront",
+      "Estate Sales"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "rating": 4.9,
+    "reviews": 214,
+    "listings": 42
+  },
+  {
+    "id": "ag_2",
+    "name": "David Okonkwo",
+    "role": "Senior Listing Agent",
+    "email": "david@estatehub.com",
+    "phone": "+1 (415) 555-0177",
+    "photo": "/images/agent-2.jpg",
+    "bio": "David specialises in new developments and investment portfolios. He built the firm’s first-time buyer programme from zero to 900 clients in four years.",
+    "specialties": [
+      "New Developments",
+      "Investment",
+      "Condos"
+    ],
+    "languages": [
+      "English",
+      "French"
+    ],
+    "rating": 4.8,
+    "reviews": 168,
+    "listings": 37
+  },
+  {
+    "id": "ag_3",
+    "name": "Elena Ruiz",
+    "role": "Head of Relocation",
+    "email": "elena@estatehub.com",
+    "phone": "+1 (415) 555-0190",
+    "photo": "/images/agent-3.jpg",
+    "bio": "Corporate relocation specialist helping families and executives settle into new cities. Elena has coordinated over 1,200 corporate moves.",
+    "specialties": [
+      "Relocation",
+      "Family Homes",
+      "Rentals"
+    ],
+    "languages": [
+      "English",
+      "Spanish",
+      "Portuguese"
+    ],
+    "rating": 4.9,
+    "reviews": 143,
+    "listings": 29
+  },
+  {
+    "id": "ag_4",
+    "name": "Marcus Lee",
+    "role": "Commercial Property Lead",
+    "email": "marcus@estatehub.com",
+    "phone": "+1 (415) 555-0123",
+    "photo": "/images/agent-4.jpg",
+    "bio": "Marcus leads the commercial division covering retail, office and mixed-use assets, with an emphasis on adaptive-reuse development in historic districts.",
+    "specialties": [
+      "Commercial",
+      "Retail",
+      "Mixed-Use"
+    ],
+    "languages": [
+      "English",
+      "Korean"
+    ],
+    "rating": 4.7,
+    "reviews": 96,
+    "listings": 21
+  }
+]

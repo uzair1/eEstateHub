@@ -1,0 +1,1898 @@
+[
+  {
+    "id": "pr_1000",
+    "slug": "modern-hillside-retreat-san-francisco-1000",
+    "title": "Modern Hillside Retreat",
+    "description": "Modern Hillside Retreat in San Francisco — a meticulously finished house offering 2 bedrooms, 2 bathrooms and 900 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 480000,
+    "status": "For Sale",
+    "type": "House",
+    "city": "San Francisco",
+    "state": "CA",
+    "address": "120 Oak Street",
+    "beds": 2,
+    "baths": 2,
+    "sqft": 900,
+    "lotSize": 0.2,
+    "yearBuilt": 1965,
+    "parking": 0,
+    "amenities": [
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-1.jpg",
+      "/images/props/prop-2.jpg",
+      "/images/props/prop-3.jpg",
+      "/images/props/prop-4.jpg",
+      "/images/props/prop-5.jpg"
+    ],
+    "agentId": "ag_1",
+    "featured": true,
+    "views": 120,
+    "listedAt": "2026-11-04T09:45:49.116Z",
+    "coordinates": {
+      "lat": 37.7,
+      "lng": -122.4
+    }
+  },
+  {
+    "id": "pr_1001",
+    "slug": "skyline-penthouse-los-angeles-1001",
+    "title": "Skyline Penthouse",
+    "description": "Skyline Penthouse in Los Angeles — a meticulously finished condo offering 3 bedrooms, 3 bathrooms and 1,015 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 552000,
+    "status": "For Sale",
+    "type": "Condo",
+    "city": "Los Angeles",
+    "state": "CA",
+    "address": "127 Cedar Street",
+    "beds": 3,
+    "baths": 3,
+    "sqft": 1015,
+    "lotSize": 0.35,
+    "yearBuilt": 1966,
+    "parking": 1,
+    "amenities": [
+      "Gym",
+      "Waterfront",
+      "Garage",
+      "Balcony"
+    ],
+    "images": [
+      "/images/props/prop-6.jpg",
+      "/images/props/prop-7.jpg",
+      "/images/props/prop-8.jpg",
+      "/images/props/prop-9.jpg",
+      "/images/props/prop-10.jpg"
+    ],
+    "agentId": "ag_2",
+    "featured": false,
+    "views": 217,
+    "listedAt": "2026-11-03T09:45:49.117Z",
+    "coordinates": {
+      "lat": 37.75,
+      "lng": -122.33000000000001
+    }
+  },
+  {
+    "id": "pr_1002",
+    "slug": "garden-townhouse-new-york-1002",
+    "title": "Garden Townhouse",
+    "description": "Garden Townhouse in New York — a meticulously finished townhouse offering 4 bedrooms, 4 bathrooms and 1,130 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 624000,
+    "status": "For Sale",
+    "type": "Townhouse",
+    "city": "New York",
+    "state": "CA",
+    "address": "134 Market Street",
+    "beds": 4,
+    "baths": 4,
+    "sqft": 1130,
+    "lotSize": 0.5,
+    "yearBuilt": 1967,
+    "parking": 2,
+    "amenities": [
+      "Balcony",
+      "Guest House",
+      "Elevator",
+      "Doorman",
+      "Garden"
+    ],
+    "images": [
+      "/images/props/prop-11.jpg",
+      "/images/props/prop-12.jpg",
+      "/images/props/prop-1.jpg",
+      "/images/props/prop-2.jpg",
+      "/images/props/prop-3.jpg"
+    ],
+    "agentId": "ag_3",
+    "featured": false,
+    "views": 314,
+    "listedAt": "2026-11-02T09:45:49.117Z",
+    "coordinates": {
+      "lat": 37.800000000000004,
+      "lng": -122.26
+    }
+  },
+  {
+    "id": "pr_1003",
+    "slug": "lakefront-villa-miami-1003",
+    "title": "Lakefront Villa",
+    "description": "Lakefront Villa in Miami — a meticulously finished villa offering 5 bedrooms, 5 bathrooms and 1,245 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 696000,
+    "status": "For Sale",
+    "type": "Villa",
+    "city": "Miami",
+    "state": "CA",
+    "address": "141 Sunset Street",
+    "beds": 5,
+    "baths": 5,
+    "sqft": 1245,
+    "lotSize": 0.65,
+    "yearBuilt": 1968,
+    "parking": 3,
+    "amenities": [
+      "Doorman",
+      "Garden",
+      "Smart Home",
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-4.jpg",
+      "/images/props/prop-5.jpg",
+      "/images/props/prop-6.jpg",
+      "/images/props/prop-7.jpg",
+      "/images/props/prop-8.jpg"
+    ],
+    "agentId": "ag_4",
+    "featured": false,
+    "views": 411,
+    "listedAt": "2026-11-01T09:45:49.117Z",
+    "coordinates": {
+      "lat": 37.85,
+      "lng": -122.19000000000001
+    }
+  },
+  {
+    "id": "pr_1004",
+    "slug": "downtown-loft-seattle-1004",
+    "title": "Downtown Loft",
+    "description": "Downtown Loft in Seattle — a meticulously finished apartment offering 6 bedrooms, 2 bathrooms and 1,360 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 768000,
+    "status": "For Sale",
+    "type": "Apartment",
+    "city": "Seattle",
+    "state": "CA",
+    "address": "148 Bay Street",
+    "beds": 6,
+    "baths": 2,
+    "sqft": 1360,
+    "lotSize": 0.8,
+    "yearBuilt": 1969,
+    "parking": 0,
+    "amenities": [
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-9.jpg",
+      "/images/props/prop-10.jpg",
+      "/images/props/prop-11.jpg",
+      "/images/props/prop-12.jpg",
+      "/images/props/prop-1.jpg"
+    ],
+    "agentId": "ag_1",
+    "featured": false,
+    "views": 508,
+    "listedAt": "2026-10-31T09:45:49.117Z",
+    "coordinates": {
+      "lat": 37.900000000000006,
+      "lng": -122.12
+    }
+  },
+  {
+    "id": "pr_1005",
+    "slug": "coastal-contemporary-austin-1005",
+    "title": "Coastal Contemporary",
+    "description": "Coastal Contemporary in Austin — a meticulously finished penthouse offering 2 bedrooms, 3 bathrooms and 1,475 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 840000,
+    "status": "For Sale",
+    "type": "Penthouse",
+    "city": "Austin",
+    "state": "CA",
+    "address": "155 Hill Street",
+    "beds": 2,
+    "baths": 3,
+    "sqft": 1475,
+    "lotSize": 0.95,
+    "yearBuilt": 1970,
+    "parking": 1,
+    "amenities": [
+      "Gym",
+      "Waterfront",
+      "Garage",
+      "Balcony"
+    ],
+    "images": [
+      "/images/props/prop-2.jpg",
+      "/images/props/prop-3.jpg",
+      "/images/props/prop-4.jpg",
+      "/images/props/prop-5.jpg",
+      "/images/props/prop-6.jpg"
+    ],
+    "agentId": "ag_2",
+    "featured": false,
+    "views": 605,
+    "listedAt": "2026-10-30T09:45:49.117Z",
+    "coordinates": {
+      "lat": 37.95,
+      "lng": -122.05000000000001
+    }
+  },
+  {
+    "id": "pr_1006",
+    "slug": "craftsman-residence-denver-1006",
+    "title": "Craftsman Residence",
+    "description": "Craftsman Residence in Denver — a meticulously finished house offering 3 bedrooms, 4 bathrooms and 1,590 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 5100,
+    "status": "For Rent",
+    "type": "House",
+    "city": "Denver",
+    "state": "CA",
+    "address": "162 Oak Street",
+    "beds": 3,
+    "baths": 4,
+    "sqft": 1590,
+    "lotSize": 1.1,
+    "yearBuilt": 1971,
+    "parking": 2,
+    "amenities": [
+      "Balcony",
+      "Guest House",
+      "Elevator",
+      "Doorman",
+      "Garden"
+    ],
+    "images": [
+      "/images/props/prop-7.jpg",
+      "/images/props/prop-8.jpg",
+      "/images/props/prop-9.jpg",
+      "/images/props/prop-10.jpg",
+      "/images/props/prop-11.jpg"
+    ],
+    "agentId": "ag_3",
+    "featured": true,
+    "views": 702,
+    "listedAt": "2026-10-29T09:45:49.117Z",
+    "coordinates": {
+      "lat": 38,
+      "lng": -121.98
+    }
+  },
+  {
+    "id": "pr_1007",
+    "slug": "sunlit-family-home-chicago-1007",
+    "title": "Sunlit Family Home",
+    "description": "Sunlit Family Home in Chicago — a meticulously finished condo offering 4 bedrooms, 5 bathrooms and 1,705 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 984000,
+    "status": "For Sale",
+    "type": "Condo",
+    "city": "Chicago",
+    "state": "CA",
+    "address": "169 Cedar Street",
+    "beds": 4,
+    "baths": 5,
+    "sqft": 1705,
+    "lotSize": 1.25,
+    "yearBuilt": 1972,
+    "parking": 3,
+    "amenities": [
+      "Doorman",
+      "Garden",
+      "Smart Home",
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-12.jpg",
+      "/images/props/prop-1.jpg",
+      "/images/props/prop-2.jpg",
+      "/images/props/prop-3.jpg",
+      "/images/props/prop-4.jpg"
+    ],
+    "agentId": "ag_4",
+    "featured": false,
+    "views": 799,
+    "listedAt": "2026-10-28T09:45:49.117Z",
+    "coordinates": {
+      "lat": 38.050000000000004,
+      "lng": -121.91000000000001
+    }
+  },
+  {
+    "id": "pr_1008",
+    "slug": "investor-duplex-san-francisco-1008",
+    "title": "Investor Duplex",
+    "description": "Investor Duplex in San Francisco — a meticulously finished townhouse offering 5 bedrooms, 2 bathrooms and 1,820 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 1056000,
+    "status": "For Sale",
+    "type": "Townhouse",
+    "city": "San Francisco",
+    "state": "CA",
+    "address": "176 Market Street",
+    "beds": 5,
+    "baths": 2,
+    "sqft": 1820,
+    "lotSize": 1.4,
+    "yearBuilt": 1973,
+    "parking": 0,
+    "amenities": [
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-5.jpg",
+      "/images/props/prop-6.jpg",
+      "/images/props/prop-7.jpg",
+      "/images/props/prop-8.jpg",
+      "/images/props/prop-9.jpg"
+    ],
+    "agentId": "ag_1",
+    "featured": false,
+    "views": 896,
+    "listedAt": "2026-10-27T09:45:49.118Z",
+    "coordinates": {
+      "lat": 38.1,
+      "lng": -121.84
+    }
+  },
+  {
+    "id": "pr_1009",
+    "slug": "city-view-condo-los-angeles-1009",
+    "title": "City View Condo",
+    "description": "City View Condo in Los Angeles — a meticulously finished villa offering 6 bedrooms, 3 bathrooms and 1,935 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 1128000,
+    "status": "For Sale",
+    "type": "Villa",
+    "city": "Los Angeles",
+    "state": "CA",
+    "address": "183 Sunset Street",
+    "beds": 6,
+    "baths": 3,
+    "sqft": 1935,
+    "lotSize": 0.2,
+    "yearBuilt": 1974,
+    "parking": 1,
+    "amenities": [
+      "Gym",
+      "Waterfront",
+      "Garage",
+      "Balcony"
+    ],
+    "images": [
+      "/images/props/prop-10.jpg",
+      "/images/props/prop-11.jpg",
+      "/images/props/prop-12.jpg",
+      "/images/props/prop-1.jpg",
+      "/images/props/prop-2.jpg"
+    ],
+    "agentId": "ag_2",
+    "featured": false,
+    "views": 993,
+    "listedAt": "2026-10-26T09:45:49.118Z",
+    "coordinates": {
+      "lat": 38.150000000000006,
+      "lng": -121.77000000000001
+    }
+  },
+  {
+    "id": "pr_1010",
+    "slug": "historic-brownstone-new-york-1010",
+    "title": "Historic Brownstone",
+    "description": "Historic Brownstone in New York — a meticulously finished apartment offering 2 bedrooms, 4 bathrooms and 2,050 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 1200000,
+    "status": "For Sale",
+    "type": "Apartment",
+    "city": "New York",
+    "state": "CA",
+    "address": "190 Bay Street",
+    "beds": 2,
+    "baths": 4,
+    "sqft": 2050,
+    "lotSize": 0.35,
+    "yearBuilt": 1975,
+    "parking": 2,
+    "amenities": [
+      "Balcony",
+      "Guest House",
+      "Elevator",
+      "Doorman",
+      "Garden"
+    ],
+    "images": [
+      "/images/props/prop-3.jpg",
+      "/images/props/prop-4.jpg",
+      "/images/props/prop-5.jpg",
+      "/images/props/prop-6.jpg",
+      "/images/props/prop-7.jpg"
+    ],
+    "agentId": "ag_3",
+    "featured": false,
+    "views": 1090,
+    "listedAt": "2026-10-25T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.7,
+      "lng": -122.4
+    }
+  },
+  {
+    "id": "pr_1011",
+    "slug": "desert-modern-villa-miami-1011",
+    "title": "Desert Modern Villa",
+    "description": "Desert Modern Villa in Miami — a meticulously finished penthouse offering 3 bedrooms, 5 bathrooms and 2,165 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 1272000,
+    "status": "Sold",
+    "type": "Penthouse",
+    "city": "Miami",
+    "state": "CA",
+    "address": "197 Hill Street",
+    "beds": 3,
+    "baths": 5,
+    "sqft": 2165,
+    "lotSize": 0.5,
+    "yearBuilt": 1976,
+    "parking": 3,
+    "amenities": [
+      "Doorman",
+      "Garden",
+      "Smart Home",
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-8.jpg",
+      "/images/props/prop-9.jpg",
+      "/images/props/prop-10.jpg",
+      "/images/props/prop-11.jpg",
+      "/images/props/prop-12.jpg"
+    ],
+    "agentId": "ag_4",
+    "featured": false,
+    "views": 1187,
+    "listedAt": "2026-10-24T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.75,
+      "lng": -122.33000000000001
+    }
+  },
+  {
+    "id": "pr_1012",
+    "slug": "waterfront-cottage-seattle-1012",
+    "title": "Waterfront Cottage",
+    "description": "Waterfront Cottage in Seattle — a meticulously finished house offering 4 bedrooms, 2 bathrooms and 2,280 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 1344000,
+    "status": "For Sale",
+    "type": "House",
+    "city": "Seattle",
+    "state": "CA",
+    "address": "204 Oak Street",
+    "beds": 4,
+    "baths": 2,
+    "sqft": 2280,
+    "lotSize": 0.65,
+    "yearBuilt": 1977,
+    "parking": 0,
+    "amenities": [
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-1.jpg",
+      "/images/props/prop-2.jpg",
+      "/images/props/prop-3.jpg",
+      "/images/props/prop-4.jpg",
+      "/images/props/prop-5.jpg"
+    ],
+    "agentId": "ag_1",
+    "featured": true,
+    "views": 1284,
+    "listedAt": "2026-10-23T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.800000000000004,
+      "lng": -122.26
+    }
+  },
+  {
+    "id": "pr_1013",
+    "slug": "executive-residence-austin-1013",
+    "title": "Executive Residence",
+    "description": "Executive Residence in Austin — a meticulously finished condo offering 5 bedrooms, 3 bathrooms and 2,395 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 4200,
+    "status": "For Rent",
+    "type": "Condo",
+    "city": "Austin",
+    "state": "CA",
+    "address": "211 Cedar Street",
+    "beds": 5,
+    "baths": 3,
+    "sqft": 2395,
+    "lotSize": 0.8,
+    "yearBuilt": 1978,
+    "parking": 1,
+    "amenities": [
+      "Gym",
+      "Waterfront",
+      "Garage",
+      "Balcony"
+    ],
+    "images": [
+      "/images/props/prop-6.jpg",
+      "/images/props/prop-7.jpg",
+      "/images/props/prop-8.jpg",
+      "/images/props/prop-9.jpg",
+      "/images/props/prop-10.jpg"
+    ],
+    "agentId": "ag_2",
+    "featured": false,
+    "views": 1381,
+    "listedAt": "2026-10-22T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.85,
+      "lng": -122.19000000000001
+    }
+  },
+  {
+    "id": "pr_1014",
+    "slug": "starlight-penthouse-denver-1014",
+    "title": "Starlight Penthouse",
+    "description": "Starlight Penthouse in Denver — a meticulously finished townhouse offering 6 bedrooms, 4 bathrooms and 2,510 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 1488000,
+    "status": "For Sale",
+    "type": "Townhouse",
+    "city": "Denver",
+    "state": "CA",
+    "address": "218 Market Street",
+    "beds": 6,
+    "baths": 4,
+    "sqft": 2510,
+    "lotSize": 0.95,
+    "yearBuilt": 1979,
+    "parking": 2,
+    "amenities": [
+      "Balcony",
+      "Guest House",
+      "Elevator",
+      "Doorman",
+      "Garden"
+    ],
+    "images": [
+      "/images/props/prop-11.jpg",
+      "/images/props/prop-12.jpg",
+      "/images/props/prop-1.jpg",
+      "/images/props/prop-2.jpg",
+      "/images/props/prop-3.jpg"
+    ],
+    "agentId": "ag_3",
+    "featured": false,
+    "views": 1478,
+    "listedAt": "2026-10-21T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.900000000000006,
+      "lng": -122.12
+    }
+  },
+  {
+    "id": "pr_1015",
+    "slug": "modern-hillside-retreat-chicago-1015",
+    "title": "Modern Hillside Retreat",
+    "description": "Modern Hillside Retreat in Chicago — a meticulously finished villa offering 2 bedrooms, 5 bathrooms and 2,625 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 1560000,
+    "status": "For Sale",
+    "type": "Villa",
+    "city": "Chicago",
+    "state": "CA",
+    "address": "225 Sunset Street",
+    "beds": 2,
+    "baths": 5,
+    "sqft": 2625,
+    "lotSize": 1.1,
+    "yearBuilt": 1980,
+    "parking": 3,
+    "amenities": [
+      "Doorman",
+      "Garden",
+      "Smart Home",
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-4.jpg",
+      "/images/props/prop-5.jpg",
+      "/images/props/prop-6.jpg",
+      "/images/props/prop-7.jpg",
+      "/images/props/prop-8.jpg"
+    ],
+    "agentId": "ag_4",
+    "featured": false,
+    "views": 1575,
+    "listedAt": "2026-10-20T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.95,
+      "lng": -122.05000000000001
+    }
+  },
+  {
+    "id": "pr_1016",
+    "slug": "skyline-penthouse-san-francisco-1016",
+    "title": "Skyline Penthouse",
+    "description": "Skyline Penthouse in San Francisco — a meticulously finished apartment offering 3 bedrooms, 2 bathrooms and 2,740 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 1632000,
+    "status": "For Sale",
+    "type": "Apartment",
+    "city": "San Francisco",
+    "state": "CA",
+    "address": "232 Bay Street",
+    "beds": 3,
+    "baths": 2,
+    "sqft": 2740,
+    "lotSize": 1.25,
+    "yearBuilt": 1981,
+    "parking": 0,
+    "amenities": [
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-9.jpg",
+      "/images/props/prop-10.jpg",
+      "/images/props/prop-11.jpg",
+      "/images/props/prop-12.jpg",
+      "/images/props/prop-1.jpg"
+    ],
+    "agentId": "ag_1",
+    "featured": false,
+    "views": 1672,
+    "listedAt": "2026-10-19T09:45:49.118Z",
+    "coordinates": {
+      "lat": 38,
+      "lng": -121.98
+    }
+  },
+  {
+    "id": "pr_1017",
+    "slug": "garden-townhouse-los-angeles-1017",
+    "title": "Garden Townhouse",
+    "description": "Garden Townhouse in Los Angeles — a meticulously finished penthouse offering 4 bedrooms, 3 bathrooms and 2,855 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 1704000,
+    "status": "For Sale",
+    "type": "Penthouse",
+    "city": "Los Angeles",
+    "state": "CA",
+    "address": "239 Hill Street",
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2855,
+    "lotSize": 1.4,
+    "yearBuilt": 1982,
+    "parking": 1,
+    "amenities": [
+      "Gym",
+      "Waterfront",
+      "Garage",
+      "Balcony"
+    ],
+    "images": [
+      "/images/props/prop-2.jpg",
+      "/images/props/prop-3.jpg",
+      "/images/props/prop-4.jpg",
+      "/images/props/prop-5.jpg",
+      "/images/props/prop-6.jpg"
+    ],
+    "agentId": "ag_2",
+    "featured": false,
+    "views": 1769,
+    "listedAt": "2026-10-18T09:45:49.118Z",
+    "coordinates": {
+      "lat": 38.050000000000004,
+      "lng": -121.91000000000001
+    }
+  },
+  {
+    "id": "pr_1018",
+    "slug": "lakefront-villa-new-york-1018",
+    "title": "Lakefront Villa",
+    "description": "Lakefront Villa in New York — a meticulously finished house offering 5 bedrooms, 4 bathrooms and 2,970 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 1776000,
+    "status": "For Sale",
+    "type": "House",
+    "city": "New York",
+    "state": "CA",
+    "address": "246 Oak Street",
+    "beds": 5,
+    "baths": 4,
+    "sqft": 2970,
+    "lotSize": 0.2,
+    "yearBuilt": 1983,
+    "parking": 2,
+    "amenities": [
+      "Balcony",
+      "Guest House",
+      "Elevator",
+      "Doorman",
+      "Garden"
+    ],
+    "images": [
+      "/images/props/prop-7.jpg",
+      "/images/props/prop-8.jpg",
+      "/images/props/prop-9.jpg",
+      "/images/props/prop-10.jpg",
+      "/images/props/prop-11.jpg"
+    ],
+    "agentId": "ag_3",
+    "featured": true,
+    "views": 1866,
+    "listedAt": "2026-10-17T09:45:49.118Z",
+    "coordinates": {
+      "lat": 38.1,
+      "lng": -121.84
+    }
+  },
+  {
+    "id": "pr_1019",
+    "slug": "downtown-loft-miami-1019",
+    "title": "Downtown Loft",
+    "description": "Downtown Loft in Miami — a meticulously finished condo offering 6 bedrooms, 5 bathrooms and 3,085 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 1848000,
+    "status": "For Sale",
+    "type": "Condo",
+    "city": "Miami",
+    "state": "CA",
+    "address": "253 Cedar Street",
+    "beds": 6,
+    "baths": 5,
+    "sqft": 3085,
+    "lotSize": 0.35,
+    "yearBuilt": 1984,
+    "parking": 3,
+    "amenities": [
+      "Doorman",
+      "Garden",
+      "Smart Home",
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-12.jpg",
+      "/images/props/prop-1.jpg",
+      "/images/props/prop-2.jpg",
+      "/images/props/prop-3.jpg",
+      "/images/props/prop-4.jpg"
+    ],
+    "agentId": "ag_4",
+    "featured": false,
+    "views": 1963,
+    "listedAt": "2026-10-16T09:45:49.118Z",
+    "coordinates": {
+      "lat": 38.150000000000006,
+      "lng": -121.77000000000001
+    }
+  },
+  {
+    "id": "pr_1020",
+    "slug": "coastal-contemporary-seattle-1020",
+    "title": "Coastal Contemporary",
+    "description": "Coastal Contemporary in Seattle — a meticulously finished townhouse offering 2 bedrooms, 2 bathrooms and 3,200 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 3300,
+    "status": "For Rent",
+    "type": "Townhouse",
+    "city": "Seattle",
+    "state": "CA",
+    "address": "260 Market Street",
+    "beds": 2,
+    "baths": 2,
+    "sqft": 3200,
+    "lotSize": 0.5,
+    "yearBuilt": 1985,
+    "parking": 0,
+    "amenities": [
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-5.jpg",
+      "/images/props/prop-6.jpg",
+      "/images/props/prop-7.jpg",
+      "/images/props/prop-8.jpg",
+      "/images/props/prop-9.jpg"
+    ],
+    "agentId": "ag_1",
+    "featured": false,
+    "views": 2060,
+    "listedAt": "2026-10-15T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.7,
+      "lng": -122.4
+    }
+  },
+  {
+    "id": "pr_1021",
+    "slug": "craftsman-residence-austin-1021",
+    "title": "Craftsman Residence",
+    "description": "Craftsman Residence in Austin — a meticulously finished villa offering 3 bedrooms, 3 bathrooms and 3,315 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 1992000,
+    "status": "For Sale",
+    "type": "Villa",
+    "city": "Austin",
+    "state": "CA",
+    "address": "267 Sunset Street",
+    "beds": 3,
+    "baths": 3,
+    "sqft": 3315,
+    "lotSize": 0.65,
+    "yearBuilt": 1986,
+    "parking": 1,
+    "amenities": [
+      "Gym",
+      "Waterfront",
+      "Garage",
+      "Balcony"
+    ],
+    "images": [
+      "/images/props/prop-10.jpg",
+      "/images/props/prop-11.jpg",
+      "/images/props/prop-12.jpg",
+      "/images/props/prop-1.jpg",
+      "/images/props/prop-2.jpg"
+    ],
+    "agentId": "ag_2",
+    "featured": false,
+    "views": 2157,
+    "listedAt": "2026-10-14T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.75,
+      "lng": -122.33000000000001
+    }
+  },
+  {
+    "id": "pr_1022",
+    "slug": "sunlit-family-home-denver-1022",
+    "title": "Sunlit Family Home",
+    "description": "Sunlit Family Home in Denver — a meticulously finished apartment offering 4 bedrooms, 4 bathrooms and 3,430 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 2064000,
+    "status": "For Sale",
+    "type": "Apartment",
+    "city": "Denver",
+    "state": "CA",
+    "address": "274 Bay Street",
+    "beds": 4,
+    "baths": 4,
+    "sqft": 3430,
+    "lotSize": 0.8,
+    "yearBuilt": 1987,
+    "parking": 2,
+    "amenities": [
+      "Balcony",
+      "Guest House",
+      "Elevator",
+      "Doorman",
+      "Garden"
+    ],
+    "images": [
+      "/images/props/prop-3.jpg",
+      "/images/props/prop-4.jpg",
+      "/images/props/prop-5.jpg",
+      "/images/props/prop-6.jpg",
+      "/images/props/prop-7.jpg"
+    ],
+    "agentId": "ag_3",
+    "featured": false,
+    "views": 2254,
+    "listedAt": "2026-10-13T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.800000000000004,
+      "lng": -122.26
+    }
+  },
+  {
+    "id": "pr_1023",
+    "slug": "investor-duplex-chicago-1023",
+    "title": "Investor Duplex",
+    "description": "Investor Duplex in Chicago — a meticulously finished penthouse offering 5 bedrooms, 5 bathrooms and 3,545 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 2136000,
+    "status": "Sold",
+    "type": "Penthouse",
+    "city": "Chicago",
+    "state": "CA",
+    "address": "281 Hill Street",
+    "beds": 5,
+    "baths": 5,
+    "sqft": 3545,
+    "lotSize": 0.95,
+    "yearBuilt": 1988,
+    "parking": 3,
+    "amenities": [
+      "Doorman",
+      "Garden",
+      "Smart Home",
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-8.jpg",
+      "/images/props/prop-9.jpg",
+      "/images/props/prop-10.jpg",
+      "/images/props/prop-11.jpg",
+      "/images/props/prop-12.jpg"
+    ],
+    "agentId": "ag_4",
+    "featured": false,
+    "views": 2351,
+    "listedAt": "2026-10-12T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.85,
+      "lng": -122.19000000000001
+    }
+  },
+  {
+    "id": "pr_1024",
+    "slug": "city-view-condo-san-francisco-1024",
+    "title": "City View Condo",
+    "description": "City View Condo in San Francisco — a meticulously finished house offering 6 bedrooms, 2 bathrooms and 3,660 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 2208000,
+    "status": "For Sale",
+    "type": "House",
+    "city": "San Francisco",
+    "state": "CA",
+    "address": "288 Oak Street",
+    "beds": 6,
+    "baths": 2,
+    "sqft": 3660,
+    "lotSize": 1.1,
+    "yearBuilt": 1989,
+    "parking": 0,
+    "amenities": [
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-1.jpg",
+      "/images/props/prop-2.jpg",
+      "/images/props/prop-3.jpg",
+      "/images/props/prop-4.jpg",
+      "/images/props/prop-5.jpg"
+    ],
+    "agentId": "ag_1",
+    "featured": true,
+    "views": 2448,
+    "listedAt": "2026-10-11T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.900000000000006,
+      "lng": -122.12
+    }
+  },
+  {
+    "id": "pr_1025",
+    "slug": "historic-brownstone-los-angeles-1025",
+    "title": "Historic Brownstone",
+    "description": "Historic Brownstone in Los Angeles — a meticulously finished condo offering 2 bedrooms, 3 bathrooms and 3,775 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 2280000,
+    "status": "For Sale",
+    "type": "Condo",
+    "city": "Los Angeles",
+    "state": "CA",
+    "address": "295 Cedar Street",
+    "beds": 2,
+    "baths": 3,
+    "sqft": 3775,
+    "lotSize": 1.25,
+    "yearBuilt": 1990,
+    "parking": 1,
+    "amenities": [
+      "Gym",
+      "Waterfront",
+      "Garage",
+      "Balcony"
+    ],
+    "images": [
+      "/images/props/prop-6.jpg",
+      "/images/props/prop-7.jpg",
+      "/images/props/prop-8.jpg",
+      "/images/props/prop-9.jpg",
+      "/images/props/prop-10.jpg"
+    ],
+    "agentId": "ag_2",
+    "featured": false,
+    "views": 2545,
+    "listedAt": "2026-10-10T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.95,
+      "lng": -122.05000000000001
+    }
+  },
+  {
+    "id": "pr_1026",
+    "slug": "desert-modern-villa-new-york-1026",
+    "title": "Desert Modern Villa",
+    "description": "Desert Modern Villa in New York — a meticulously finished townhouse offering 3 bedrooms, 4 bathrooms and 3,890 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 2352000,
+    "status": "For Sale",
+    "type": "Townhouse",
+    "city": "New York",
+    "state": "CA",
+    "address": "302 Market Street",
+    "beds": 3,
+    "baths": 4,
+    "sqft": 3890,
+    "lotSize": 1.4,
+    "yearBuilt": 1991,
+    "parking": 2,
+    "amenities": [
+      "Balcony",
+      "Guest House",
+      "Elevator",
+      "Doorman",
+      "Garden"
+    ],
+    "images": [
+      "/images/props/prop-11.jpg",
+      "/images/props/prop-12.jpg",
+      "/images/props/prop-1.jpg",
+      "/images/props/prop-2.jpg",
+      "/images/props/prop-3.jpg"
+    ],
+    "agentId": "ag_3",
+    "featured": false,
+    "views": 2642,
+    "listedAt": "2026-10-09T09:45:49.118Z",
+    "coordinates": {
+      "lat": 38,
+      "lng": -121.98
+    }
+  },
+  {
+    "id": "pr_1027",
+    "slug": "waterfront-cottage-miami-1027",
+    "title": "Waterfront Cottage",
+    "description": "Waterfront Cottage in Miami — a meticulously finished villa offering 4 bedrooms, 5 bathrooms and 4,005 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 2400,
+    "status": "For Rent",
+    "type": "Villa",
+    "city": "Miami",
+    "state": "CA",
+    "address": "309 Sunset Street",
+    "beds": 4,
+    "baths": 5,
+    "sqft": 4005,
+    "lotSize": 0.2,
+    "yearBuilt": 1992,
+    "parking": 3,
+    "amenities": [
+      "Doorman",
+      "Garden",
+      "Smart Home",
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-4.jpg",
+      "/images/props/prop-5.jpg",
+      "/images/props/prop-6.jpg",
+      "/images/props/prop-7.jpg",
+      "/images/props/prop-8.jpg"
+    ],
+    "agentId": "ag_4",
+    "featured": false,
+    "views": 2739,
+    "listedAt": "2026-10-08T09:45:49.118Z",
+    "coordinates": {
+      "lat": 38.050000000000004,
+      "lng": -121.91000000000001
+    }
+  },
+  {
+    "id": "pr_1028",
+    "slug": "executive-residence-seattle-1028",
+    "title": "Executive Residence",
+    "description": "Executive Residence in Seattle — a meticulously finished apartment offering 5 bedrooms, 2 bathrooms and 4,120 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 2496000,
+    "status": "For Sale",
+    "type": "Apartment",
+    "city": "Seattle",
+    "state": "CA",
+    "address": "316 Bay Street",
+    "beds": 5,
+    "baths": 2,
+    "sqft": 4120,
+    "lotSize": 0.35,
+    "yearBuilt": 1993,
+    "parking": 0,
+    "amenities": [
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-9.jpg",
+      "/images/props/prop-10.jpg",
+      "/images/props/prop-11.jpg",
+      "/images/props/prop-12.jpg",
+      "/images/props/prop-1.jpg"
+    ],
+    "agentId": "ag_1",
+    "featured": false,
+    "views": 2836,
+    "listedAt": "2026-10-07T09:45:49.118Z",
+    "coordinates": {
+      "lat": 38.1,
+      "lng": -121.84
+    }
+  },
+  {
+    "id": "pr_1029",
+    "slug": "starlight-penthouse-austin-1029",
+    "title": "Starlight Penthouse",
+    "description": "Starlight Penthouse in Austin — a meticulously finished penthouse offering 6 bedrooms, 3 bathrooms and 4,235 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 2568000,
+    "status": "For Sale",
+    "type": "Penthouse",
+    "city": "Austin",
+    "state": "CA",
+    "address": "323 Hill Street",
+    "beds": 6,
+    "baths": 3,
+    "sqft": 4235,
+    "lotSize": 0.5,
+    "yearBuilt": 1994,
+    "parking": 1,
+    "amenities": [
+      "Gym",
+      "Waterfront",
+      "Garage",
+      "Balcony"
+    ],
+    "images": [
+      "/images/props/prop-2.jpg",
+      "/images/props/prop-3.jpg",
+      "/images/props/prop-4.jpg",
+      "/images/props/prop-5.jpg",
+      "/images/props/prop-6.jpg"
+    ],
+    "agentId": "ag_2",
+    "featured": false,
+    "views": 2933,
+    "listedAt": "2026-10-06T09:45:49.118Z",
+    "coordinates": {
+      "lat": 38.150000000000006,
+      "lng": -121.77000000000001
+    }
+  },
+  {
+    "id": "pr_1030",
+    "slug": "modern-hillside-retreat-denver-1030",
+    "title": "Modern Hillside Retreat",
+    "description": "Modern Hillside Retreat in Denver — a meticulously finished house offering 2 bedrooms, 4 bathrooms and 4,350 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 2640000,
+    "status": "For Sale",
+    "type": "House",
+    "city": "Denver",
+    "state": "CA",
+    "address": "330 Oak Street",
+    "beds": 2,
+    "baths": 4,
+    "sqft": 4350,
+    "lotSize": 0.65,
+    "yearBuilt": 1995,
+    "parking": 2,
+    "amenities": [
+      "Balcony",
+      "Guest House",
+      "Elevator",
+      "Doorman",
+      "Garden"
+    ],
+    "images": [
+      "/images/props/prop-7.jpg",
+      "/images/props/prop-8.jpg",
+      "/images/props/prop-9.jpg",
+      "/images/props/prop-10.jpg",
+      "/images/props/prop-11.jpg"
+    ],
+    "agentId": "ag_3",
+    "featured": true,
+    "views": 3030,
+    "listedAt": "2026-11-04T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.7,
+      "lng": -122.4
+    }
+  },
+  {
+    "id": "pr_1031",
+    "slug": "skyline-penthouse-chicago-1031",
+    "title": "Skyline Penthouse",
+    "description": "Skyline Penthouse in Chicago — a meticulously finished condo offering 3 bedrooms, 5 bathrooms and 4,465 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 2712000,
+    "status": "For Sale",
+    "type": "Condo",
+    "city": "Chicago",
+    "state": "CA",
+    "address": "337 Cedar Street",
+    "beds": 3,
+    "baths": 5,
+    "sqft": 4465,
+    "lotSize": 0.8,
+    "yearBuilt": 1996,
+    "parking": 3,
+    "amenities": [
+      "Doorman",
+      "Garden",
+      "Smart Home",
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-12.jpg",
+      "/images/props/prop-1.jpg",
+      "/images/props/prop-2.jpg",
+      "/images/props/prop-3.jpg",
+      "/images/props/prop-4.jpg"
+    ],
+    "agentId": "ag_4",
+    "featured": false,
+    "views": 127,
+    "listedAt": "2026-11-03T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.75,
+      "lng": -122.33000000000001
+    }
+  },
+  {
+    "id": "pr_1032",
+    "slug": "garden-townhouse-san-francisco-1032",
+    "title": "Garden Townhouse",
+    "description": "Garden Townhouse in San Francisco — a meticulously finished townhouse offering 4 bedrooms, 2 bathrooms and 4,580 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 2784000,
+    "status": "For Sale",
+    "type": "Townhouse",
+    "city": "San Francisco",
+    "state": "CA",
+    "address": "344 Market Street",
+    "beds": 4,
+    "baths": 2,
+    "sqft": 4580,
+    "lotSize": 0.95,
+    "yearBuilt": 1997,
+    "parking": 0,
+    "amenities": [
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-5.jpg",
+      "/images/props/prop-6.jpg",
+      "/images/props/prop-7.jpg",
+      "/images/props/prop-8.jpg",
+      "/images/props/prop-9.jpg"
+    ],
+    "agentId": "ag_1",
+    "featured": false,
+    "views": 224,
+    "listedAt": "2026-11-02T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.800000000000004,
+      "lng": -122.26
+    }
+  },
+  {
+    "id": "pr_1033",
+    "slug": "lakefront-villa-los-angeles-1033",
+    "title": "Lakefront Villa",
+    "description": "Lakefront Villa in Los Angeles — a meticulously finished villa offering 5 bedrooms, 3 bathrooms and 4,695 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 2856000,
+    "status": "For Sale",
+    "type": "Villa",
+    "city": "Los Angeles",
+    "state": "CA",
+    "address": "351 Sunset Street",
+    "beds": 5,
+    "baths": 3,
+    "sqft": 4695,
+    "lotSize": 1.1,
+    "yearBuilt": 1998,
+    "parking": 1,
+    "amenities": [
+      "Gym",
+      "Waterfront",
+      "Garage",
+      "Balcony"
+    ],
+    "images": [
+      "/images/props/prop-10.jpg",
+      "/images/props/prop-11.jpg",
+      "/images/props/prop-12.jpg",
+      "/images/props/prop-1.jpg",
+      "/images/props/prop-2.jpg"
+    ],
+    "agentId": "ag_2",
+    "featured": false,
+    "views": 321,
+    "listedAt": "2026-11-01T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.85,
+      "lng": -122.19000000000001
+    }
+  },
+  {
+    "id": "pr_1034",
+    "slug": "downtown-loft-new-york-1034",
+    "title": "Downtown Loft",
+    "description": "Downtown Loft in New York — a meticulously finished apartment offering 6 bedrooms, 4 bathrooms and 4,810 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 5550,
+    "status": "For Rent",
+    "type": "Apartment",
+    "city": "New York",
+    "state": "CA",
+    "address": "358 Bay Street",
+    "beds": 6,
+    "baths": 4,
+    "sqft": 4810,
+    "lotSize": 1.25,
+    "yearBuilt": 1999,
+    "parking": 2,
+    "amenities": [
+      "Balcony",
+      "Guest House",
+      "Elevator",
+      "Doorman",
+      "Garden"
+    ],
+    "images": [
+      "/images/props/prop-3.jpg",
+      "/images/props/prop-4.jpg",
+      "/images/props/prop-5.jpg",
+      "/images/props/prop-6.jpg",
+      "/images/props/prop-7.jpg"
+    ],
+    "agentId": "ag_3",
+    "featured": false,
+    "views": 418,
+    "listedAt": "2026-10-31T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.900000000000006,
+      "lng": -122.12
+    }
+  },
+  {
+    "id": "pr_1035",
+    "slug": "coastal-contemporary-miami-1035",
+    "title": "Coastal Contemporary",
+    "description": "Coastal Contemporary in Miami — a meticulously finished penthouse offering 2 bedrooms, 5 bathrooms and 4,925 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 3000000,
+    "status": "Sold",
+    "type": "Penthouse",
+    "city": "Miami",
+    "state": "CA",
+    "address": "365 Hill Street",
+    "beds": 2,
+    "baths": 5,
+    "sqft": 4925,
+    "lotSize": 1.4,
+    "yearBuilt": 2000,
+    "parking": 3,
+    "amenities": [
+      "Doorman",
+      "Garden",
+      "Smart Home",
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-8.jpg",
+      "/images/props/prop-9.jpg",
+      "/images/props/prop-10.jpg",
+      "/images/props/prop-11.jpg",
+      "/images/props/prop-12.jpg"
+    ],
+    "agentId": "ag_4",
+    "featured": false,
+    "views": 515,
+    "listedAt": "2026-10-30T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.95,
+      "lng": -122.05000000000001
+    }
+  },
+  {
+    "id": "pr_1036",
+    "slug": "craftsman-residence-seattle-1036",
+    "title": "Craftsman Residence",
+    "description": "Craftsman Residence in Seattle — a meticulously finished house offering 3 bedrooms, 2 bathrooms and 5,040 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 3072000,
+    "status": "For Sale",
+    "type": "House",
+    "city": "Seattle",
+    "state": "CA",
+    "address": "372 Oak Street",
+    "beds": 3,
+    "baths": 2,
+    "sqft": 5040,
+    "lotSize": 0.2,
+    "yearBuilt": 2001,
+    "parking": 0,
+    "amenities": [
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-1.jpg",
+      "/images/props/prop-2.jpg",
+      "/images/props/prop-3.jpg",
+      "/images/props/prop-4.jpg",
+      "/images/props/prop-5.jpg"
+    ],
+    "agentId": "ag_1",
+    "featured": true,
+    "views": 612,
+    "listedAt": "2026-10-29T09:45:49.118Z",
+    "coordinates": {
+      "lat": 38,
+      "lng": -121.98
+    }
+  },
+  {
+    "id": "pr_1037",
+    "slug": "sunlit-family-home-austin-1037",
+    "title": "Sunlit Family Home",
+    "description": "Sunlit Family Home in Austin — a meticulously finished condo offering 4 bedrooms, 3 bathrooms and 5,155 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 3144000,
+    "status": "For Sale",
+    "type": "Condo",
+    "city": "Austin",
+    "state": "CA",
+    "address": "379 Cedar Street",
+    "beds": 4,
+    "baths": 3,
+    "sqft": 5155,
+    "lotSize": 0.35,
+    "yearBuilt": 2002,
+    "parking": 1,
+    "amenities": [
+      "Gym",
+      "Waterfront",
+      "Garage",
+      "Balcony"
+    ],
+    "images": [
+      "/images/props/prop-6.jpg",
+      "/images/props/prop-7.jpg",
+      "/images/props/prop-8.jpg",
+      "/images/props/prop-9.jpg",
+      "/images/props/prop-10.jpg"
+    ],
+    "agentId": "ag_2",
+    "featured": false,
+    "views": 709,
+    "listedAt": "2026-10-28T09:45:49.118Z",
+    "coordinates": {
+      "lat": 38.050000000000004,
+      "lng": -121.91000000000001
+    }
+  },
+  {
+    "id": "pr_1038",
+    "slug": "investor-duplex-denver-1038",
+    "title": "Investor Duplex",
+    "description": "Investor Duplex in Denver — a meticulously finished townhouse offering 5 bedrooms, 4 bathrooms and 5,270 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 3216000,
+    "status": "For Sale",
+    "type": "Townhouse",
+    "city": "Denver",
+    "state": "CA",
+    "address": "386 Market Street",
+    "beds": 5,
+    "baths": 4,
+    "sqft": 5270,
+    "lotSize": 0.5,
+    "yearBuilt": 2003,
+    "parking": 2,
+    "amenities": [
+      "Balcony",
+      "Guest House",
+      "Elevator",
+      "Doorman",
+      "Garden"
+    ],
+    "images": [
+      "/images/props/prop-11.jpg",
+      "/images/props/prop-12.jpg",
+      "/images/props/prop-1.jpg",
+      "/images/props/prop-2.jpg",
+      "/images/props/prop-3.jpg"
+    ],
+    "agentId": "ag_3",
+    "featured": false,
+    "views": 806,
+    "listedAt": "2026-10-27T09:45:49.118Z",
+    "coordinates": {
+      "lat": 38.1,
+      "lng": -121.84
+    }
+  },
+  {
+    "id": "pr_1039",
+    "slug": "city-view-condo-chicago-1039",
+    "title": "City View Condo",
+    "description": "City View Condo in Chicago — a meticulously finished villa offering 6 bedrooms, 5 bathrooms and 5,385 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 3288000,
+    "status": "For Sale",
+    "type": "Villa",
+    "city": "Chicago",
+    "state": "CA",
+    "address": "393 Sunset Street",
+    "beds": 6,
+    "baths": 5,
+    "sqft": 5385,
+    "lotSize": 0.65,
+    "yearBuilt": 2004,
+    "parking": 3,
+    "amenities": [
+      "Doorman",
+      "Garden",
+      "Smart Home",
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-4.jpg",
+      "/images/props/prop-5.jpg",
+      "/images/props/prop-6.jpg",
+      "/images/props/prop-7.jpg",
+      "/images/props/prop-8.jpg"
+    ],
+    "agentId": "ag_4",
+    "featured": false,
+    "views": 903,
+    "listedAt": "2026-10-26T09:45:49.118Z",
+    "coordinates": {
+      "lat": 38.150000000000006,
+      "lng": -121.77000000000001
+    }
+  },
+  {
+    "id": "pr_1040",
+    "slug": "historic-brownstone-san-francisco-1040",
+    "title": "Historic Brownstone",
+    "description": "Historic Brownstone in San Francisco — a meticulously finished apartment offering 2 bedrooms, 2 bathrooms and 5,500 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 3360000,
+    "status": "For Sale",
+    "type": "Apartment",
+    "city": "San Francisco",
+    "state": "CA",
+    "address": "400 Bay Street",
+    "beds": 2,
+    "baths": 2,
+    "sqft": 5500,
+    "lotSize": 0.8,
+    "yearBuilt": 2005,
+    "parking": 0,
+    "amenities": [
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-9.jpg",
+      "/images/props/prop-10.jpg",
+      "/images/props/prop-11.jpg",
+      "/images/props/prop-12.jpg",
+      "/images/props/prop-1.jpg"
+    ],
+    "agentId": "ag_1",
+    "featured": false,
+    "views": 1000,
+    "listedAt": "2026-10-25T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.7,
+      "lng": -122.4
+    }
+  },
+  {
+    "id": "pr_1041",
+    "slug": "desert-modern-villa-los-angeles-1041",
+    "title": "Desert Modern Villa",
+    "description": "Desert Modern Villa in Los Angeles — a meticulously finished penthouse offering 3 bedrooms, 3 bathrooms and 5,615 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 4650,
+    "status": "For Rent",
+    "type": "Penthouse",
+    "city": "Los Angeles",
+    "state": "CA",
+    "address": "407 Hill Street",
+    "beds": 3,
+    "baths": 3,
+    "sqft": 5615,
+    "lotSize": 0.95,
+    "yearBuilt": 2006,
+    "parking": 1,
+    "amenities": [
+      "Gym",
+      "Waterfront",
+      "Garage",
+      "Balcony"
+    ],
+    "images": [
+      "/images/props/prop-2.jpg",
+      "/images/props/prop-3.jpg",
+      "/images/props/prop-4.jpg",
+      "/images/props/prop-5.jpg",
+      "/images/props/prop-6.jpg"
+    ],
+    "agentId": "ag_2",
+    "featured": false,
+    "views": 1097,
+    "listedAt": "2026-10-24T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.75,
+      "lng": -122.33000000000001
+    }
+  },
+  {
+    "id": "pr_1042",
+    "slug": "waterfront-cottage-new-york-1042",
+    "title": "Waterfront Cottage",
+    "description": "Waterfront Cottage in New York — a meticulously finished house offering 4 bedrooms, 4 bathrooms and 5,730 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 3504000,
+    "status": "For Sale",
+    "type": "House",
+    "city": "New York",
+    "state": "CA",
+    "address": "414 Oak Street",
+    "beds": 4,
+    "baths": 4,
+    "sqft": 5730,
+    "lotSize": 1.1,
+    "yearBuilt": 2007,
+    "parking": 2,
+    "amenities": [
+      "Balcony",
+      "Guest House",
+      "Elevator",
+      "Doorman",
+      "Garden"
+    ],
+    "images": [
+      "/images/props/prop-7.jpg",
+      "/images/props/prop-8.jpg",
+      "/images/props/prop-9.jpg",
+      "/images/props/prop-10.jpg",
+      "/images/props/prop-11.jpg"
+    ],
+    "agentId": "ag_3",
+    "featured": true,
+    "views": 1194,
+    "listedAt": "2026-10-23T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.800000000000004,
+      "lng": -122.26
+    }
+  },
+  {
+    "id": "pr_1043",
+    "slug": "executive-residence-miami-1043",
+    "title": "Executive Residence",
+    "description": "Executive Residence in Miami — a meticulously finished condo offering 5 bedrooms, 5 bathrooms and 5,845 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 3576000,
+    "status": "For Sale",
+    "type": "Condo",
+    "city": "Miami",
+    "state": "CA",
+    "address": "421 Cedar Street",
+    "beds": 5,
+    "baths": 5,
+    "sqft": 5845,
+    "lotSize": 1.25,
+    "yearBuilt": 2008,
+    "parking": 3,
+    "amenities": [
+      "Doorman",
+      "Garden",
+      "Smart Home",
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-12.jpg",
+      "/images/props/prop-1.jpg",
+      "/images/props/prop-2.jpg",
+      "/images/props/prop-3.jpg",
+      "/images/props/prop-4.jpg"
+    ],
+    "agentId": "ag_4",
+    "featured": false,
+    "views": 1291,
+    "listedAt": "2026-10-22T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.85,
+      "lng": -122.19000000000001
+    }
+  },
+  {
+    "id": "pr_1044",
+    "slug": "starlight-penthouse-seattle-1044",
+    "title": "Starlight Penthouse",
+    "description": "Starlight Penthouse in Seattle — a meticulously finished townhouse offering 6 bedrooms, 2 bathrooms and 5,960 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 3648000,
+    "status": "For Sale",
+    "type": "Townhouse",
+    "city": "Seattle",
+    "state": "CA",
+    "address": "428 Market Street",
+    "beds": 6,
+    "baths": 2,
+    "sqft": 5960,
+    "lotSize": 1.4,
+    "yearBuilt": 2009,
+    "parking": 0,
+    "amenities": [
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-5.jpg",
+      "/images/props/prop-6.jpg",
+      "/images/props/prop-7.jpg",
+      "/images/props/prop-8.jpg",
+      "/images/props/prop-9.jpg"
+    ],
+    "agentId": "ag_1",
+    "featured": false,
+    "views": 1388,
+    "listedAt": "2026-10-21T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.900000000000006,
+      "lng": -122.12
+    }
+  },
+  {
+    "id": "pr_1045",
+    "slug": "modern-hillside-retreat-austin-1045",
+    "title": "Modern Hillside Retreat",
+    "description": "Modern Hillside Retreat in Austin — a meticulously finished villa offering 2 bedrooms, 3 bathrooms and 6,075 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 3720000,
+    "status": "For Sale",
+    "type": "Villa",
+    "city": "Austin",
+    "state": "CA",
+    "address": "435 Sunset Street",
+    "beds": 2,
+    "baths": 3,
+    "sqft": 6075,
+    "lotSize": 0.2,
+    "yearBuilt": 2010,
+    "parking": 1,
+    "amenities": [
+      "Gym",
+      "Waterfront",
+      "Garage",
+      "Balcony"
+    ],
+    "images": [
+      "/images/props/prop-10.jpg",
+      "/images/props/prop-11.jpg",
+      "/images/props/prop-12.jpg",
+      "/images/props/prop-1.jpg",
+      "/images/props/prop-2.jpg"
+    ],
+    "agentId": "ag_2",
+    "featured": false,
+    "views": 1485,
+    "listedAt": "2026-10-20T09:45:49.118Z",
+    "coordinates": {
+      "lat": 37.95,
+      "lng": -122.05000000000001
+    }
+  },
+  {
+    "id": "pr_1046",
+    "slug": "skyline-penthouse-denver-1046",
+    "title": "Skyline Penthouse",
+    "description": "Skyline Penthouse in Denver — a meticulously finished apartment offering 3 bedrooms, 4 bathrooms and 6,190 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 3792000,
+    "status": "For Sale",
+    "type": "Apartment",
+    "city": "Denver",
+    "state": "CA",
+    "address": "442 Bay Street",
+    "beds": 3,
+    "baths": 4,
+    "sqft": 6190,
+    "lotSize": 0.35,
+    "yearBuilt": 2011,
+    "parking": 2,
+    "amenities": [
+      "Balcony",
+      "Guest House",
+      "Elevator",
+      "Doorman",
+      "Garden"
+    ],
+    "images": [
+      "/images/props/prop-3.jpg",
+      "/images/props/prop-4.jpg",
+      "/images/props/prop-5.jpg",
+      "/images/props/prop-6.jpg",
+      "/images/props/prop-7.jpg"
+    ],
+    "agentId": "ag_3",
+    "featured": false,
+    "views": 1582,
+    "listedAt": "2026-10-19T09:45:49.118Z",
+    "coordinates": {
+      "lat": 38,
+      "lng": -121.98
+    }
+  },
+  {
+    "id": "pr_1047",
+    "slug": "garden-townhouse-chicago-1047",
+    "title": "Garden Townhouse",
+    "description": "Garden Townhouse in Chicago — a meticulously finished penthouse offering 4 bedrooms, 5 bathrooms and 6,305 sq ft of light-filled living space. Premium finishes, generous outdoor areas and effortless access to the best of the neighbourhood.",
+    "price": 3864000,
+    "status": "Sold",
+    "type": "Penthouse",
+    "city": "Chicago",
+    "state": "CA",
+    "address": "449 Hill Street",
+    "beds": 4,
+    "baths": 5,
+    "sqft": 6305,
+    "lotSize": 0.5,
+    "yearBuilt": 2012,
+    "parking": 3,
+    "amenities": [
+      "Doorman",
+      "Garden",
+      "Smart Home",
+      "Pool",
+      "Fireplace",
+      "Solar Panels"
+    ],
+    "images": [
+      "/images/props/prop-8.jpg",
+      "/images/props/prop-9.jpg",
+      "/images/props/prop-10.jpg",
+      "/images/props/prop-11.jpg",
+      "/images/props/prop-12.jpg"
+    ],
+    "agentId": "ag_4",
+    "featured": false,
+    "views": 1679,
+    "listedAt": "2026-10-18T09:45:49.118Z",
+    "coordinates": {
+      "lat": 38.050000000000004,
+      "lng": -121.91000000000001
+    }
+  }
+]

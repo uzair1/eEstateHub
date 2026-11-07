@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360" role="img" aria-label="Marcus Lee">
+  <defs>
+    <linearGradient id="av3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12304a"/>
+      <stop offset="1" stop-color="#1a3d5c"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="360" fill="url(#av3)"/>
+  <circle cx="180" cy="140" r="70" fill="#d9a93f" opacity="0.9"/>
+  <path d="M60 360 C60 250 110 205 180 205 C250 205 300 250 300 360 Z" fill="rgba(0,0,0,0.35)"/>
+  <text x="180" y="225" font-family="Georgia, serif" font-size="66" font-weight="700" fill="#ffffff" text-anchor="middle" opacity="0.95">ML</text>
+</svg>

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "s1",
+    "icon": "home",
+    "title": "Residential Sales",
+    "text": "Full-service sales from valuation and staging through to closing, backed by a dedicated listing agent and a 30-day marketing plan."
+  },
+  {
+    "id": "s2",
+    "icon": "key",
+    "title": "Property Management",
+    "text": "Rent collection, tenant screening, maintenance and quarterly reporting for owners who live out of state or overseas."
+  },
+  {
+    "id": "s3",
+    "icon": "chart",
+    "title": "Investment Advisory",
+    "text": "Rental yield analysis, cap-rate modelling and portfolio strategy so you buy with numbers rather than sentiment."
+  },
+  {
+    "id": "s4",
+    "icon": "users",
+    "title": "Relocation Services",
+    "text": "Destination tours, school catchment guidance, temporary housing and visa-timed closing coordination for inbound movers."
+  },
+  {
+    "id": "s5",
+    "icon": "handshake",
+    "title": "Mortgage Brokerage",
+    "text": "In-house lending desk comparing 40+ lenders, pre-approval in 24 hours and no hidden fees on your loan."
+  },
+  {
+    "id": "s6",
+    "icon": "ruler",
+    "title": "Valuation & Appraisal",
+    "text": "Comparative market analysis with recent closed sales in your exact street, delivered within 48 hours, free of charge."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "t1",
+    "name": "Jordan & Amy Reyes",
+    "location": "San Francisco, CA",
+    "rating": 5,
+    "property": "Bought a family home in Noe Valley",
+    "text": "From the first weekend of open houses to the day we got the keys, the team was three steps ahead of us. They flagged inspection issues nobody else mentioned and negotiated a price 6% under asking."
+  },
+  {
+    "id": "t2",
+    "name": "Priya Raman",
+    "location": "New York, NY",
+    "rating": 5,
+    "property": "Purchased a 2-bed condo",
+    "text": "I was buying remotely from another country. Virtual walkthroughs, honest advice and constant updates made the whole thing feel effortless. Highly responsive on every message."
+  },
+  {
+    "id": "t3",
+    "name": "Thomas Berg",
+    "location": "Austin, TX",
+    "rating": 5,
+    "property": "Sold an investment duplex",
+    "text": "They priced it right the first time and we had an accepted offer in nine days. The photography and listing copy were far better than anything else I saw in the market."
+  },
+  {
+    "id": "t4",
+    "name": "Sofia Almeida",
+    "location": "Miami, FL",
+    "rating": 4,
+    "property": "Relocation rental, 6 months",
+    "text": "Relocating for work is stressful. Elena handled everything from area tours to the lease paperwork. We were fully settled within three weeks of landing."
+  },
+  {
+    "id": "t5",
+    "name": "Daniel Kim",
+    "location": "Seattle, WA",
+    "rating": 5,
+    "property": "First-time buyer, 2-bed condo",
+    "text": "They patiently explained every number in the mortgage and never once pushed me. I saved enough for the down payment through their buyer programme."
+  },
+  {
+    "id": "t6",
+    "name": "Grace Whitfield",
+    "location": "Los Angeles, CA",
+    "rating": 5,
+    "property": "Bought a mid-century modern villa",
+    "text": "Sarah understood exactly the kind of home I was after and found it before it even hit the portals. Closing was clean and on schedule."
+  }
+]
