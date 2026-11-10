@@ -1,5 +1,3 @@
-import { read, write } from '../db.js';
-
 export const AGENTS = [
   { id: 'ag_1', name: 'Sarah Mitchell', role: 'Founder & Principal Broker', email: 'sarah@estatehub.com', phone: '+1 (415) 555-0142', photo: '/images/agent-1.jpg', bio: 'Over 18 years in luxury residential real estate across the Bay Area. Sarah has closed more than $420M in volume and is known for discretion and precision.', specialties: ['Luxury Homes', 'Waterfront', 'Estate Sales'], languages: ['English', 'Spanish'], rating: 4.9, reviews: 214, listings: 42 },
   { id: 'ag_2', name: 'David Okonkwo', role: 'Senior Listing Agent', email: 'david@estatehub.com', phone: '+1 (415) 555-0177', photo: '/images/agent-2.jpg', bio: 'David specialises in new developments and investment portfolios. He built the firm\u2019s first-time buyer programme from zero to 900 clients in four years.', specialties: ['New Developments', 'Investment', 'Condos'], languages: ['English', 'French'], rating: 4.8, reviews: 168, listings: 37 },
@@ -71,22 +69,3 @@ export const SERVICES = [
   { id: 's5', icon: 'handshake', title: 'Mortgage Brokerage', text: 'In-house lending desk comparing 40+ lenders, pre-approval in 24 hours and no hidden fees on your loan.' },
   { id: 's6', icon: 'ruler', title: 'Valuation & Appraisal', text: 'Comparative market analysis with recent closed sales in your exact street, delivered within 48 hours, free of charge.' },
 ];
-
-const DEFAULT_PASSWORD_HASH = '$2a$10$sbSH1yUwtik5c4A6IBOCIOlRXd1u/.3n0wvyJI/VKgurqdWizO5.2'; // "password"
-
-export function seed() {
-  write('agents', AGENTS);
-  write('properties', PROPERTIES);
-  write('testimonials', TESTIMONIALS);
-  write('services', SERVICES);
-  write('messages', []);
-  write('newsletter', []);
-  write('favorites', []);
-  write('users', [
-    { id: 'u_admin', name: 'Admin', email: 'admin@estatehub.com', passwordHash: DEFAULT_PASSWORD_HASH, role: 'admin', createdAt: new Date().toISOString() },
-    { id: 'u_demo', name: 'Demo User', email: 'demo@estatehub.com', passwordHash: DEFAULT_PASSWORD_HASH, role: 'user', createdAt: new Date().toISOString() },
-  ]);
-}
-
-export const collections = { agents: 'agents', properties: 'properties', testimonials: 'testimonials', services: 'services', messages: 'messages', newsletter: 'newsletter', favorites: 'favorites', users: 'users' };
-export { read, write };

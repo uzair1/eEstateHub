@@ -6,15 +6,21 @@ import { authRequired, adminOnly } from '../middleware/auth.js';
 
 const router = Router();
 
-function decorate(p) {
-  const agent = read('agents').find((a) => a.id === p.agentId) || null;
-  return { ...p, agent: agent && { id: agent.id, name: agent.name, role: agent.role, photo: agent.photo, phone: agent.phone, email: agent.email } };
+async function decorate(p) {
+  const agents = await read('agents');
+  const agent = agents.find((a) => a.id === p.agentId) || null;
+  return {
+    ...p,
+    agent: agent && { id: agent.id, name: agent.name, role: agent.role, photo: agent.photo, phone: agent.phone, email: agent.email },
+  };
 }
 
-router.get('/', (req, res) => {
-  const { q, city, type, status, minPrice, maxPrice, beds, baths, minSqft, maxSqft, amenity, featured, agentId, sort, page = '1', limit = '12' } = req.query;
+router.get('/', async (req, res) => {
+  const {
+    q, city, type, status, minPrice, maxPrice, beds, baths, minSqft, maxSqft, amenity, featured, agentId, sort, page = '1', limit = '12',
+  } = req.query;
 
-  let rows = read('properties');
+  let rows = await read('properties');
 
   if (q) {
     const needle = String(q).toLowerCase();
@@ -27,19 +33,19 @@ router.get('/', (req, res) => {
   if (featured === 'true') rows = rows.filter((p) => p.featured);
   if (minPrice) rows = rows.filter((p) => p.price >= Number(minPrice));
   if (maxPrice) rows = rows.filter((p) => p.price <= Number(maxPrice));
-  if (beds) rows = rows.filter((p) => p.beds >= Number(beds));
-  if (baths) rows = rows.filter((p) => p.baths >= Number(baths));
-  if (minSqft) rows = rows.filter((p) => p.sqft >= Number(minSqft));
-  if (maxSqft) rows = rows.filter((p) => p.sqft <= Number(maxSqft));
+  if (beds) rows = rows.filter((p) => p.bedrooms >= Number(beds));
+  if (baths) rows = rows.filter((p) => p.bathrooms >= Number(baths));
+  if (minSqft) rows = rows.filter((p) => p.squareFeet >= Number(minSqft));
+  if (maxSqft) rows = rows.filter((p) => p.squareFeet <= Number(maxSqft));
   if (amenity) rows = rows.filter((p) => p.amenities.includes(amenity));
 
   const sorters = {
     'price-asc': (a, b) => a.price - b.price,
     'price-desc': (a, b) => b.price - a.price,
-    'newest': (a, b) => new Date(b.listedAt) - new Date(a.listedAt),
-    'sqft-desc': (a, b) => b.sqft - a.sqft,
-    'beds-desc': (a, b) => b.beds - a.beds,
-    'popular': (a, b) => b.views - a.views,
+    newest: (a, b) => new Date(b.listedAt) - new Date(a.listedAt),
+    'sqft-desc': (a, b) => b.squareFeet - a.squareFeet,
+    'beds-desc': (a, b) => b.bedrooms - a.bedrooms,
+    popular: (a, b) => b.views - a.views,
   };
   rows = [...rows].sort(sorters[sort] || sorters.newest);
 
@@ -48,31 +54,35 @@ router.get('/', (req, res) => {
   const total = rows.length;
   const paged = rows.slice((current - 1) * perPage, current * perPage);
 
+  const allProperties = await read('properties');
   res.json({
-    data: paged.map(decorate),
+    data: await Promise.all(paged.map(decorate)),
     pagination: { total, page: current, limit: perPage, pages: Math.ceil(total / perPage) || 1 },
     filters: {
-      cities: [...new Set(read('properties').map((p) => p.city))].sort(),
-      types: [...new Set(read('properties').map((p) => p.type))].sort(),
-      amenities: [...new Set(read('properties').flatMap((p) => p.amenities))].sort(),
+      cities: [...new Set(allProperties.map((p) => p.city))].sort(),
+      types: [...new Set(allProperties.map((p) => p.type))].sort(),
+      amenities: [...new Set(allProperties.flatMap((p) => p.amenities))].sort(),
     },
   });
 });
 
-router.get('/:idOrSlug', (req, res) => {
+router.get('/:idOrSlug', async (req, res) => {
   const key = req.params.idOrSlug;
-  const all = read('properties');
+  const all = await read('properties');
   const property = all.find((p) => p.id === key) || all.find((p) => p.slug === key);
   if (!property) return res.status(404).json({ error: 'Property not found' });
 
-  update('properties', property.id, { views: (property.views || 0) + 1 });
+  await update('properties', property.id, { views: (property.views || 0) + 1 });
 
   const similar = all
     .filter((p) => p.id !== property.id && (p.city === property.city || p.type === property.type))
     .slice(0, 4)
     .map(decorate);
 
-  return res.json({ data: { ...decorate(property), views: (property.views || 0) + 1 }, similar });
+  return res.json({
+    data: { ...(await decorate(property)), views: (property.views || 0) + 1 },
+    similar: await Promise.all(similar),
+  });
 });
 
 const propertySchema = z.object({
@@ -96,11 +106,11 @@ const propertySchema = z.object({
   featured: z.coerce.boolean().default(false),
 });
 
-router.post('/', authRequired, adminOnly, (req, res) => {
+router.post('/', authRequired, adminOnly, async (req, res) => {
   const parsed = propertySchema.safeParse(req.body);
   if (!parsed.success) return res.status(400).json({ error: 'Validation failed', details: parsed.error.issues });
   const base = parsed.data.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-  const record = insert('properties', {
+  const record = await insert('properties', {
     ...parsed.data,
     slug: `${base}-${Date.now().toString(36)}`,
     views: 0,
@@ -110,14 +120,14 @@ router.post('/', authRequired, adminOnly, (req, res) => {
   return res.status(201).json({ data: record });
 });
 
-router.put('/:id', authRequired, adminOnly, (req, res) => {
-  const updated = update('properties', req.params.id, req.body);
+router.put('/:id', authRequired, adminOnly, async (req, res) => {
+  const updated = await update('properties', req.params.id, req.body);
   if (!updated) return res.status(404).json({ error: 'Property not found' });
   return res.json({ data: updated });
 });
 
-router.delete('/:id', authRequired, adminOnly, asyncHandler((req, res) => {
-  const gone = remove('properties', req.params.id);
+router.delete('/:id', authRequired, adminOnly, asyncHandler(async (req, res) => {
+  const gone = await remove('properties', req.params.id);
   if (!gone) return res.status(404).json({ error: 'Property not found' });
   return res.json({ data: gone });
 }));

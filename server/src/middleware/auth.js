@@ -13,13 +13,13 @@ export function publicUser(u) {
   return rest;
 }
 
-export function authRequired(req, res, next) {
+export async function authRequired(req, res, next) {
   const header = req.headers.authorization || '';
   const token = header.startsWith('Bearer ') ? header.slice(7) : null;
   if (!token) return res.status(401).json({ error: 'Authentication required' });
   try {
     const payload = jwt.verify(token, JWT_SECRET);
-    const user = findBy('users', (u) => u.id === payload.id);
+    const user = await findBy('users', (u) => u.id === payload.id);
     if (!user) return res.status(401).json({ error: 'User no longer exists' });
     req.user = publicUser(user);
     return next();
