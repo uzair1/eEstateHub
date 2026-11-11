@@ -1,5 +1,4 @@
 {
-  "outputDirectory": "client/dist",
   "routes": [
     { "src": "/api/(.*)", "dest": "/api/index.js" },
     { "src": "/(.*)\\.(jpg|jpeg|png|gif|svg|ico|css|js|woff|woff2)$", "dest": "/client/dist/$1" },
