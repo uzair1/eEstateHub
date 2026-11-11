@@ -2,7 +2,7 @@
   "outputDirectory": "client/dist",
   "routes": [
     { "src": "/api/(.*)", "dest": "/api/index.js" },
-    { "handle": "filesystem" },
+    { "src": "/(.*)\\.(jpg|jpeg|png|gif|svg|ico|css|js|woff|woff2)$", "dest": "/client/dist/$1" },
     { "src": "/(.*)", "dest": "/client/dist/index.html" }
   ]
 }
