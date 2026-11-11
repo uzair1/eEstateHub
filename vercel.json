@@ -5,8 +5,8 @@
   ],
   "routes": [
     { "src": "/api/(.*)", "dest": "/api/index.js" },
-    { "src": "/assets/(.+)", "dest": "/assets/$1" },
-    { "src": "/(.+)\\.(jpg|jpeg|png|gif|svg|ico|css|js|woff|woff2)$", "dest": "/$1" },
-    { "src": "/(.*)", "dest": "/index.html" }
+    { "src": "/assets/(.+)", "dest": "/client/dist/assets/$1" },
+    { "src": "/(.+)\\.(css|js|jpg|jpeg|png|gif|svg|ico|woff|woff2)$", "dest": "/client/dist/$1" },
+    { "src": "/(.*)", "dest": "/client/dist/index.html" }
   ]
 }
