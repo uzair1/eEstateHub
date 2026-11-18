@@ -31,7 +31,7 @@ export default function Agents() {
                     <div className="agent-card__body">
                       <div className="rating" style={{ justifyContent: 'center', marginBottom: 12 }}>
                         <Icon name="star" size={15} fill="currentColor" style={{ color: 'var(--gold-500)' }} />
-                        {a.rating.toFixed(1)} <span className="muted" style={{ fontWeight: 400 }}>({a.reviews} reviews)</span>
+                        {Number(a.rating ?? 0).toFixed(1)} <span className="muted" style={{ fontWeight: 400 }}>({a.reviews} reviews)</span>
                       </div>
                       <div className="chip-row" style={{ justifyContent: 'center', marginBottom: 14 }}>
                         {a.specialties.map((s) => <span className="chip" key={s} style={{ cursor: 'default' }}>{s}</span>)}
