@@ -39,7 +39,13 @@ export default function AgentDetail() {
               <div style={{ display: 'flex', gap: 18, flexWrap: 'wrap', color: '#c6d0dc', fontSize: '0.92rem' }}>
                 <span><Icon name="phone" size={14} /> {agent.phone}</span>
                 <span><Icon name="mail" size={14} /> {agent.email}</span>
-                <span><Icon name="star" size={14} fill="currentColor" style={{ color: 'var(--gold-500)' }} /> {agent.rating.toFixed(1)} ({agent.reviews} reviews)</span>
+                <span>
+  <Icon name="star" size={14} fill="currentColor" style={{ color: 'var(--gold-500)' }} />
+  {' '}
+  {Number.isFinite(Number(agent.rating)) && agent.rating !== null && agent.rating !== ''
+    ? Number(agent.rating).toFixed(1)
+    : 'N/A'} ({agent.reviews} reviews)
+</span>
               </div>
             </div>
             <Link className="btn btn--primary" to="/contact">Contact {agent.name.split(' ')[0]}</Link>
@@ -69,7 +75,14 @@ export default function AgentDetail() {
                 <div className="stats" style={{ gridTemplateColumns: 'repeat(3, 1fr)' }}>
                   <div><div className="stat__num">{agent.listings}</div><div className="stat__label">Listings sold</div></div>
                   <div><div className="stat__num">{agent.reviews}</div><div className="stat__label">Client reviews</div></div>
-                  <div><div className="stat__num">{agent.rating.toFixed(1)}</div><div className="stat__label">Avg rating</div></div>
+                  <div>
+  <div className="stat__num">
+    {Number.isFinite(Number(agent.rating)) && agent.rating !== null && agent.rating !== ''
+      ? Number(agent.rating).toFixed(1)
+      : 'N/A'}
+  </div>
+  <div className="stat__label">Avg rating</div>
+</div>
                 </div>
               </div>
             </div>
