@@ -73,7 +73,7 @@ export default function AgentDetail() {
               <div className="card card--pad" style={{ marginTop: 26 }}>
                 <h3>Track record</h3>
                 <div className="stats" style={{ gridTemplateColumns: 'repeat(3, 1fr)' }}>
-                  <div><div className="stat__num">{agent.listings}</div><div className="stat__label">Listings sold</div></div>
+                  <div><div className="stat__num">{Array.isArray(agent.listings) ? agent.listings.length : 0}</div><div className="stat__label">Listings sold</div></div>
                   <div><div className="stat__num">{agent.reviews}</div><div className="stat__label">Client reviews</div></div>
                   <div>
   <div className="stat__num">
